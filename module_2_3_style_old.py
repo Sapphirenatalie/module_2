@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 # блоки кода
-
 x, y = 10, 29
 
 if x < 0:
@@ -13,12 +12,10 @@ else:
 print('Результат', z)
 
 # ср. с С++
-
 # if (x < 0) { printf('Меньше нуля\n');
 # z = x**2 + y; } else { printf('Больше нуля\n'); # z = x - y; } printf('Получается\n', z)
 
 # вложенные блоки кода
-
 name = input('Enter your name >>> ')
 if name == 'Ola':
     opponent = 'Ola'
@@ -36,7 +33,6 @@ else:
             print('Hi, anonymous!')
 
 # оператор pass
-
 if x < 0:
     if y > 0:
         z = -x + y
